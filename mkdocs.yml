@@ -1,0 +1,62 @@
+site_name: SWAT+ Editor Documentation
+site_description: Documentation for the SWAT+ Editor, and interface for editing SWAT+ model input files.
+site_url: https://swat-model.github.io/swatplus-editor-documentation/
+repo_url: https://github.com/swat-model/swatplus-editor
+repo_name: swat-model/swatplus-editor
+
+theme:
+  name: material
+  logo: assets/splus.svg
+  favicon: assets/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
+  - include-markdown:
+      opening_tag: "{%"
+      closing_tag: "%}"
+
+nav:
+  - Home: index.md
+  - Change Log: changelog.md
+  - Project Setup: project-setup.md
+  - Edit SWAT+ Inputs:
+    - edit-inputs/index.md
+    - Sample Data: edit-inputs/sample-data.md
+    - Weather Generator: edit-inputs/wgn.md
+    - Weather Stations: edit-inputs/weather.md
+    - Recall (Point Source/Inlet): edit-inputs/recall.md
+    - Land Use Management: edit-inputs/lum.md
+    - Decision Tables: edit-inputs/decision-tables.md
+  - Run SWAT+: run.md
+  - How to Use SQLite: sqlite.md
+  - Developers: 
+    - developers/index.md
+    - Code Structure: developers/code-structure.md
