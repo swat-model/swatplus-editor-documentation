@@ -1,0 +1,71 @@
+/* Dark navy primary palette. */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #092D54;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #5a9eff;
+  --md-accent-bg-color: #ffffff;
+  --md-typeset-a-color: #0068C1;
+  --md-footer-bg-color: #092D54;
+  --md-footer-bg-color--dark: #092D54;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #092D54;
+  --md-accent-fg-color: #ffffff;
+  --md-default-bg-color: #031a33;
+  --md-typeset-a-color: #ffffff;
+  --md-footer-bg-color: #092D54;
+  --md-footer-bg-color--dark: #092D54;
+  --md-code-bg-color: #092D54;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Cap overall page width on very wide screens. */
+@media (min-width: 90em) {
+  .md-grid {
+    max-width: 1500px;
+  }
+}
+
+/* Slightly larger reading text. */
+.md-typeset {
+  font-size: 0.78rem;
+}
+
+/* "Important" admonition: lighter chrome, used by our "Potential bug" sections. */
+.md-typeset h2#important {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+
+/* Make the SVG wordmark logo a bit larger in the header. */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.6rem;
+  width: auto;
+}
+
+.md-typeset .md-button {
+    border-radius: 1.2rem;
+    text-decoration: none !important;
+}
+
+.md-typeset .md-button--primary {
+    border: 1px solid #0058ca;
+    background: linear-gradient(135deg, #009cda, #0058ca);
+}
+
+.md-typeset .md-button--primary:hover {
+    background: linear-gradient(135deg, #0085b9, #0049a8);
+}
