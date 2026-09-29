@@ -18,3 +18,7 @@ From here you can start editing your SWAT+ inputs by clicking the "Get started" 
 ## Using the editor without GIS
 
 If you are not coming from QSWAT+, you may open the editor and create a new project from scratch. A project database will be created for you and you will need to input your spatial connections and all other data manually. This is not recommended.
+
+## Download a Demo Project
+
+[Download our example watershed project](https://plus.swat.tamu.edu/downloads/sample_files/editor-demos/robit_demo_4.0.zip) that has already completed steps 1 and 2 of QSWAT+ and is ready to open in SWAT+ Editor. WGN and weather files are included in the project folder.

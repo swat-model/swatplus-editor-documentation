@@ -36,7 +36,7 @@ Each station file has a title line, followed by a heading line and data line for
 
 Download sample SWAT+ format weather files [here](https://plus.swat.tamu.edu/downloads/sample_files/weather-stations/swatplus-weather-stations.zip).
 
-For hourly data format, see the [SWAT+ documentation](https://docs.swat.tamu.edu/input-reference/pcp/#records-line-4-onward).
+For hourly data format, see the [SWAT+ documentation](https://swatplus.gitbook.io/io-docs/introduction-1/climate/pcp.cli-and-precipitation-data-files).
 
 ## SWAT2012/Global Weather Websites Format
 

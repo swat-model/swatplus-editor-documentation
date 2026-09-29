@@ -40,4 +40,4 @@ Download a sample of the one-file CSV format [here](https://plus.swat.tamu.edu/d
 
 ## Field Definitions and Units
 
-All inputs match the SWAT+ inputs. Documentation may be found [here](https://docs.swat.tamu.edu/input-reference/cli/#weather-wgncli){ target="_blank"}.
+All inputs match the SWAT+ inputs. Documentation may be found [here](https://swatplus.gitbook.io/io-docs/introduction-1/climate/weather-wgn.cli){ target="_blank"}.

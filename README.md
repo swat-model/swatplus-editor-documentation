@@ -2,6 +2,8 @@
 
 Documentation for [SWAT+ Editor](https://github.com/swat-model/swatplus-editor) built by [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 
+Published at [`https://swat-model.github.io/swatplus-editor-documentation/`](https://swat-model.github.io/swatplus-editor-documentation/)
+
 ## Installing and running the source code
 
 1. Install [Python 3](https://www.python.org/)

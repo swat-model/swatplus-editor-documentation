@@ -12,7 +12,7 @@ When you click on an editor section from the left menu, you'll find the default 
 
 Because the SWAT+ Editor is tightly coupled with model inputs, not all sections need a page in the Editor's documentation site. Instead, this documentation will focus on sections requiring custom data formatting and other functionality unique to the Editor.
 
-[SWAT+ Model Documentation](https://docs.swat.tamu.edu){ .md-button .md-button--primary target="_blank" }
+[SWAT+ Model Documentation](https://swatplus.gitbook.io/io-docs){ .md-button .md-button--primary target="_blank" }
 
 ## Navigating the Editor
 
@@ -34,7 +34,7 @@ In the action bar at the bottom, click create record to add an item to the table
 
 ### Referencing Model Documentation
 
-Each section of the editor contains a link to the [SWAT+ documentation](https://docs.swat.tamu.edu){ target="_blank" } for the corresponding input files. This can be found in the upper right corner of each section.
+Each section of the editor contains a link to the [SWAT+ documentation](https://swatplus.gitbook.io/io-docs){ target="_blank" } for the corresponding input files. This can be found in the upper right corner of each section.
 
 ![Example edit form](../assets/edit-inputs/spe_docs_link.png)
 
