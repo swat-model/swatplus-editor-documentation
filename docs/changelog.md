@@ -1,5 +1,6 @@
 ---
 hide:
-  - navigation
+    - navigation
 ---
-{% include "https://raw.githubusercontent.com/swat-model/swatplus-editor/refs/heads/main/changelog.md" %}
+
+{% include "https://raw.githubusercontent.com/swat-model/swatplus-editor/refs/heads/main/changelog.md" cache=0 %}
